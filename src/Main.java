@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        int startingScore = 100; // начальный счет
+        int i = 100; // начальный счет
         int replenishment = 2200; // сумма пополнения
 
         int bonus;
@@ -10,6 +10,7 @@ public class Main {
         } else {
             bonus = 0;
         }
-        System.out.println("Итоговая сумма:" + bonus); //вывод на экран
+        System.out.println("Cумма бонуса:" + bonus); //вывод суммы бонуса
+        System.out.println("Итоговый счет:" + (i + bonus)); //итоговая сумма с учетом бонуса
     }
 }
